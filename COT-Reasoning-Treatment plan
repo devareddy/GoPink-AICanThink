@@ -1,0 +1,31 @@
+What is  Postsurgical  treatment plan for  a DCIS / female breast cancer,  Ipsilateral, with comorbidity  thromboembolism , undergone lumpectomy as primary treatment plan followed by APBI(Accelerated partial breast irradiation), with Hormone Receptor Status as ER-positive, Postmenopausal, age 55 .
+
+client = OpenAI(api_key='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')
+
+response = client.chat.completions.create(
+  model="ft:gpt-3.5-turbo-1106:personal::8iZdWZNp",
+  messages=[
+    {"role": "system", "content": "Primary treatment plan options for DCIS / TisN0M0 staged/diagnosed breast cancer."},
+    {"role": "user", "content": "What is  Postsurgical  treatment plan for  a DCIS / female breast cancer,  Ipsilateral, with comorbidity  thromboembolism , undergone lumpectomy as primary treatment plan followed by APBI(Accelerated partial breast irradiation), with Hormone Receptor Status as ER-positive, Postmenopausal, age 55 ."}
+  ]
+)
+print(response)
+
+
+
+ChatCompletion(id='chatcmpl-8j3Csws14EZDIGFm4nOFnjVqN3ncn',
+ choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content=
+' Endocrine therapy for 5 years is highly recommended for patients who have received breast-conserving therapy and WBRT radiation therapy, 
+particularly those with ER-positive DCIS with Postmenopausal patients  and age is less than 60 can be prescribed Tamoxifen or an aromatase inhibitor can be considered.
+ The standard dose of Tamoxifen is 20 mg/day for 5 years.
+ Low-dose Tamoxifen (5 mg/day for 3 years) is an option if the patient has symptoms on the standard dose or cannot tolerate it.
+ There is some advantage to using aromatase inhibitors, 
+especially in patients under 60 years of age or those with concerns with comorbidity  thromboembolism.', role='assistant', function_call=None, tool_calls=None))], created=1705747778, model='ft:gpt-3.5-turbo-1106:personal::8iZdWZNp', object='chat.completion', system_fingerprint='fp_2dae0bfd7e', usage=CompletionUsage(completion_tokens=146, prompt_tokens=106, total_tokens=252))
+
+
+" Endocrine therapy for 5 years is highly recommended for patients who have received breast-conserving therapy and WBRT radiation therapy,
+ particularly those with ER-positive DCIS with Postmenopausal patients 
+ and age is less than 60 can be prescribed Tamoxifen or an aromatase inhibitor can be considered. 
+The standard dose of Tamoxifen is 20 mg/day for 5 years. Low-dose Tamoxifen (5 mg/day for 3 years) is an option if the patient has symptoms on the standard dose or cannot tolerate it. There is some advantage to using aromatase inhibitors,
+ especially in patients under 60 years of age or those with concerns with comorbidity  thromboembolism."}]}
+---------------------------------------
