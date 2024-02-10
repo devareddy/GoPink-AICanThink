@@ -1,11 +1,10 @@
 What is  Postsurgical  treatment plan for  a DCIS / female breast cancer,  Ipsilateral, with comorbidity  thromboembolism , undergone lumpectomy as primary treatment plan followed by APBI(Accelerated partial breast irradiation), with Hormone Receptor Status as ER-positive, Postmenopausal, age 55 .
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 response = client.chat.completions.create(
   model="ft:gpt-3.5-turbo-1106:personal::8iZdWZNp",
   messages=[
-    {"role": "system", "content": "Primary treatment plan options for DCIS / TisN0M0 staged/diagnosed breast cancer."},
     {"role": "user", "content": "What is  Postsurgical  treatment plan for  a DCIS / female breast cancer,  Ipsilateral, with comorbidity  thromboembolism , undergone lumpectomy as primary treatment plan followed by APBI(Accelerated partial breast irradiation), with Hormone Receptor Status as ER-positive, Postmenopausal, age 55 ."}
   ]
 )
@@ -13,7 +12,7 @@ print(response)
 
 
 
-ChatCompletion(id='chatcmpl-8j3Csws14EZDIGFm4nOFnjVqN3ncn',
+ChatCompletion(id='chatcmpl-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content=
 ' Endocrine therapy for 5 years is highly recommended for patients who have received breast-conserving therapy and WBRT radiation therapy, 
 particularly those with ER-positive DCIS with Postmenopausal patients  and age is less than 60 can be prescribed Tamoxifen or an aromatase inhibitor can be considered.
