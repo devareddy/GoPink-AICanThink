@@ -3,7 +3,7 @@ What is  Postsurgical  treatment plan for  a DCIS / female breast cancer,  Ipsil
 client = OpenAI(api_key='sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 response = client.chat.completions.create(
-  model="ft:gpt-3.5-turbo-1106:personal::8iZdWZNp",
+  model="ft:gpt-3.5-turbo-1106:personal::8xxxxxxxp",
   messages=[
     {"role": "user", "content": "What is  Postsurgical  treatment plan for  a DCIS / female breast cancer,  Ipsilateral, with comorbidity  thromboembolism , undergone lumpectomy as primary treatment plan followed by APBI(Accelerated partial breast irradiation), with Hormone Receptor Status as ER-positive, Postmenopausal, age 55 ."}
   ]
