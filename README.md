@@ -1,1 +1,1 @@
-Has partial code, data, responses and presentations
+Has partial code, data, responses and presentation
